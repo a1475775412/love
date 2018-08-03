@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="zh-CN">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="zh-CN">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="zh-CN">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+ <title>樱花の白猫APP下载</title>
+        <meta name="author" content="StrikeREAD">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+		<meta property="og:type" content="website">
+        <meta property="og:url" content="http://mcxhz.cn/">
+        <meta property="og:title" content="怕什么真理无穷，进一步有进一步的欢喜，梦白博客">
+        <meta property="og:image" content="http://mcxhz.cn/yy/tc/images/2018/07/27/54c1adab-c562-41a8-a27f-14eecb9c27f2.jpg">
+        <meta property="og:site_name" content="怕什么真理无穷，进一步有进一步的欢喜，梦白的小窝">
+        <meta property="og:description" content="A free image hosting service powered by 梦白">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:description" content="A free image hosting service powered by 梦白">
+        <meta name="twitter:title" content="怕什么真理无穷，进一步有进一步的欢喜，梦白的小窝">
+        <meta name="twitter:site" content="@梦白">
+  <meta name="author" content="anythink">
+  <meta name="robots" content="all">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <!--[if IE 6]>
+        <style type="text/css">
+            div.section img{ behavior: url(js/iepngfix.htc); }
+        </style>
+    <![endif]-->
+    <style type="text/css">
+      *{
+        margin:0;
+        padding:0;
+        font-family: "PingFang SC","Microsoft Yahei","Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB",  sans-serif;
+      }
+      .download_bg{
+        position: relative;
+        min-width:1200px;
+        max-width:2000px;
+        margin:0 auto;
+      }
+      .download_bg img{
+        display: block;
+        width:100%;
+        /*height:950px;*/
+      }
+      .download_app{
+        position:absolute;
+        left:60%;
+        top:575px;
+        width:380px;
+        height:162px;
+      }
+      .download_app .download_img{
+        width:160px;
+        height:160px;
+        border:1px solid #b2b2b2;
+      }
+      .download_app .load{
+        position:absolute;
+        right:0;
+        width:180px;
+        height:70px;
+        border:1px solid #b2b2b2;
+      }
+      .download_app .ios_img{
+        bottom:0;
+      }
+      .download_app .android_img{
+        top:0;
+      }
+      .download_app .download_img div{
+        position:absolute;
+        top:12px;
+        left:12px;
+        width:160px;
+        height:160px;
+        background:url('');
+      }
+      .download_app .download_img img{
+        width:160px;
+        /* height:180px; */
+      }
+      .download_app .imgall{
+        position:absolute;
+        top:12px;
+        left:-12px;
+        height:70px;
+        font-size:23px;
+        color:#fff;
+        line-height:70px;
+        box-shadow:0 5px 10px #000;
+        cursor:pointer;
+      }
+      .download_app .android_img div{
+        width:115px;
+        padding-left: 65px;
+        box-shadow:0 5px 10px #000;
+        letter-spacing:2px;
+        background:#FD4C86 url('images/android.png') 16px center no-repeat;
+
+      }
+      .download_app .android_img div:hover{
+        background:#FB3B7B url('images/android.png') 16px center no-repeat;
+      }
+      .download_app .ios_img div{
+        width:100px;
+        padding-left: 80px;
+        letter-spacing:11px;
+        background:#FD4C86 url('images/ios.png') 16px center no-repeat;
+      }
+      .download_app .ios_img div:hover{
+        background:#FB3B7B url('images/ios.png') 16px center no-repeat;
+      }
+
+  @media (max-width:1199px){
+      .download_app{
+        left:700px;
+      }
+  }
+  .about{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+    </style>
+     <!--[if lt IE 9]>
+      <script src="//www-static.diyidan.net/static/js/Respond-1.4.2/respond.min.js?v=afc1984a3d17110449dc90cf22de0c27"></script>
+      <script src="//www-static.diyidan.net/static/js/html5shiv.min.js?v=40bd440d29b3a9371b0c63fec41ee64f"></script>
+    <![endif]-->
+    <script src="js/google_ga3.js"></script>
+
+</head>
+<body style="background:url(images/footer_bg.png) ;">
+  <div class="download_bg">
+    <img src="images/download_01.png" alt="樱花与白猫">
+    <div class="download_app">
+      <div class="download_img ">
+        <div><img src="images/ewm.png" alt="樱花与白猫"></div>
+      </div>
+      <div id="android_download" class="android_img load">
+        <div class="imgall" onclick="downloadApk()">Android</div>
+      </div>
+      <div id="ios_download" class="ios_img load">
+      <div class="imgall" onclick="downloadIos()">iOS</div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  var weChatWait=2;
+  function downloadApk(){
+      if (isFromWeChat()) {
+          location.href="https://a1475775412.github.io/love/%E6%A8%B1%E8%8A%B1%E4%B8%8E%E7%99%BD%E7%8C%AB%E5%8D%9A%E5%AE%A2.apk";
+      } else {
+                  location.href = "https://a1475775412.github.io/love/%E6%A8%B1%E8%8A%B1%E4%B8%8E%E7%99%BD%E7%8C%AB%E5%8D%9A%E5%AE%A2.apk";
+              }
+  }
+
+  function downloadIos(){
+      if (isFromWeChat()) {
+          location.href="https://a1475775412.github.io/love/%E6%A8%B1%E8%8A%B1%E4%B8%8E%E7%99%BD%E7%8C%AB%E5%8D%9A%E5%AE%A2.apk";
+      } else {
+        location.href = "https://a1475775412.github.io/love/%E6%A8%B1%E8%8A%B1%E4%B8%8E%E7%99%BD%E7%8C%AB%E5%8D%9A%E5%AE%A2.apk";
+      }
+  }
+
+  function isFromWeChat() {
+      var ua = navigator.userAgent.toLowerCase();
+      if (ua.match(/MicroMessenger/i) == "micromessenger") {
+          return true;
+      } else {
+          return false;
+      }
+  }
+  function isFromQQ() {
+      if (/(QQ)/i.test(navigator.userAgent)) {
+          return true;
+      } else {
+          return false;
+      }
+  }
+  function isFromiOS() {
+      if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+          return true;
+      } else {
+          return false;
+      }
+  }
+  </script>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript">
+      // Using jQuery Event API v1.3
+      $('#android_download').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'android_download');
+      });
+      $('#ios_download').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'ios_download');
+      });
+
+      var resizeDlIcon = function () {
+          // ratio = 292 / 750.0 = 0.389
+          var imgHeight = $('.download_bg').innerHeight()
+          var topVal = imgHeight * 0.611;
+          if (topVal > 0) {
+            $('.download_app').css('top','' + topVal + 'px');
+          }
+      };
+      window.onload=function() {
+          resizeDlIcon();
+      };
+      $(window).resize(function() {
+          resizeDlIcon();
+      });
+  </script>
+</body>
+</html>
